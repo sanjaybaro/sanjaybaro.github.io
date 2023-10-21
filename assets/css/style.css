@@ -1119,6 +1119,7 @@ textarea.input-field {
   /**
    * HEADER
    */
+  
 
   .header {
     padding-block: 30px;
@@ -1396,4 +1397,5 @@ textarea.input-field {
   .about-banner {
     max-width: 450px;
   }
+
 }
