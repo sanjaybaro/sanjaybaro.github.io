@@ -7,7 +7,8 @@
    * colors
    */
 
-  --raw-seinna: hsl(106, 66%, 37%);
+  /* --raw-seinna: hsl(106, 66%, 37%); */
+  --raw-seinna: rgb(39, 164, 206);
   --sizzling-sunrise: hsl(207, 95%, 54%);
   --scarlet: hsl(13, 69%, 14%);
   --black: hsl(0, 0%, 0%);
