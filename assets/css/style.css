@@ -7,7 +7,7 @@
    * colors
    */
 
-  --raw-seinna: hsl(124, 81%, 27%);
+  --raw-seinna: hsl(106, 66%, 37%);
   --sizzling-sunrise: hsl(207, 95%, 54%);
   --scarlet: hsl(13, 69%, 14%);
   --black: hsl(0, 0%, 0%);
@@ -17,7 +17,13 @@
    * typography
    */
 
-  --ff-saira-stencil-one: "Saira Stencil One", sans-serif;
+  /* --ff-saira-stencil-one: "Saira Stencil One", sans-serif; */
+  /* <!-- style="font-family: Copperplate Gothic Light, Lucida Console, serif" --> */
+  /* font-family: "Bungee Shade", cursive; */
+  /* font-family: "Changa", sans-serif; */
+  /* font-family: "Manrope", sans-serif; */
+  /* font-family: "Nunito Sans", sans-serif; */
+  /* font-family: "Rock Salt", cursive; */
   --ff-poppins: "Poppins", sans-serif;
   --ff-roboto: "Roboto", sans-serif;
 
@@ -378,7 +384,7 @@ body.active {
 
 .nav-toggle-btn {
   position: relative;
-  transform: rotate(-55deg);
+  /* transform: rotate(-55deg); */
   transition: var(--transition-1);
   z-index: 2;
 }
@@ -466,12 +472,13 @@ body.active {
 .nav-link::before {
   content: "";
   position: absolute;
-  top: 50%;
+  top: 100%;
   transform: translateY(-50%);
   left: 0;
   height: 5px;
   width: 0;
-  background: var(--raw-seinna);
+  /* background: var(--raw-seinna); */
+  background: rgb(93, 0, 255);
   transition: var(--transition-1);
 }
 
